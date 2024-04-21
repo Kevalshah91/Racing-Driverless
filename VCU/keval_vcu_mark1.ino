@@ -350,7 +350,6 @@ void canReceiver() {
             Serial.print(" and requested length ");
             Serial.println(CAN.packetDlc());
         }
-
         Serial.println();
     }
 }
